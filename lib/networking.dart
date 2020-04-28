@@ -24,7 +24,7 @@ class BitcoinData {
 //  BitcoinData(this.cryptoType, this.country);
 //  final String cryptoType;
 //  final String country;
-  final apiKey = '02523CE5-39F1-4850-8EB5-CBA27A4CF267';
+  final apiKey = '____________________________';
 
   Future<dynamic> getRate(String cryptoType, String country) async {
     String urlLink =
